@@ -1,0 +1,14 @@
+{
+    "name": "My Chrome Extension",
+    "description": "A browser extension made with SvelteKit",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_title": "Svelte Extension",
+        "default_icon": "favicon.png",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "history"
+    ]
+}
